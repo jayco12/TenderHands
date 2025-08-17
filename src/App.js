@@ -139,7 +139,7 @@ const Contact = () => (
       <div className="contact-info">
         <h3>Our Address</h3>
         <p>8303 Richard Court.</p>
-        <p>Brandywine ,Maryland, 20613</p>
+        <p>Brandywine, Maryland, 20613</p>
         <p>Email: contact@tenderhands.com</p>
         <p>Phone: (301) 792-5070</p>
       </div>
