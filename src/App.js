@@ -3,11 +3,31 @@ import { motion } from 'framer-motion';
 import './App.css';
 
 const servicesData = [
-  { title: 'Personal Care Assistance', img: 'https://images.pexels.com/photos/7551674/pexels-photo-7551674.jpeg' },
-  { title: 'Companionship', img: 'https://images.pexels.com/photos/3768131/pexels-photo-3768131.jpeg' },
-  { title: 'Medication Reminders', img: 'https://images.pexels.com/photos/4057759/pexels-photo-4057759.jpeg' },
-  { title: 'Pediatric Care', img: 'https://images.pexels.com/photos/5790816/pexels-photo-5790816.jpeg' },
-  { title: 'Elderly Care', img: 'https://images.pexels.com/photos/7551667/pexels-photo-7551667.jpeg' },
+  { 
+    title: 'Personal Care Assistance', 
+    description: "Providing help with daily activities such as bathing, dressing, grooming, and mobility to ensure comfort and independence.", 
+    img: 'https://images.pexels.com/photos/7551674/pexels-photo-7551674.jpeg' 
+  },
+  { 
+    title: 'Companionship', 
+    description: "Offering social interaction, emotional support, and engaging activities to reduce loneliness and promote well-being.", 
+    img: 'https://images.pexels.com/photos/3768131/pexels-photo-3768131.jpeg' 
+  },
+  { 
+    title: 'Medication Reminders',
+    description: "Helping clients take medications on time and correctly, ensuring adherence to prescribed schedules and maintaining health.", 
+    img: 'https://images.pexels.com/photos/7551652/pexels-photo-7551652.jpeg' 
+  },
+  { 
+    title: 'Child Care',
+    description: "Providing safe, nurturing, and educational care for children, supporting both learning and emotional growth.", 
+    img: 'https://images.pexels.com/photos/4934138/pexels-photo-4934138.jpeg' 
+  },
+  { 
+    title: 'Elderly Care', 
+    description: "Delivering compassionate care tailored to the needs of seniors, including health monitoring, assistance, and companionship.", 
+    img: 'https://images.pexels.com/photos/19882274/pexels-photo-19882274.jpeg' 
+  },
 ];
 
 const Navbar = () => {
